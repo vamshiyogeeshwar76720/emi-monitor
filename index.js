@@ -64,8 +64,8 @@ console.log(`${"=".repeat(70)}\n`);
 // ============================================================================
 
 const RPC_ENDPOINTS = {
-  11155111: process.env.SEPOLIA_RPC || "https://sepolia.infura.io/v3/3b801e8b02084ba68f55b81b9209c916",
-  1: process.env.MAINNET_RPC || "https://mainnet.infura.io/v3/3b801e8b02084ba68f55b81b9209c916",
+  11155111: process.env.SEPOLIA_RPC || "https://sepolia.infura.io/v3/195a87fa71be40848fc02cdf4242d12c",
+  1: process.env.MAINNET_RPC || "https://mainnet.infura.io/v3/195a87fa71be40848fc02cdf4242d12c",
   80001: process.env.MUMBAI_RPC || "https://rpc-mumbai.maticvigil.com/",
   137: process.env.POLYGON_RPC || "https://polygon-rpc.com/",
   97: process.env.BSC_TESTNET_RPC || "https://data-seed-prebsc-1-s1.binance.org:8545",
