@@ -1,0 +1,11 @@
+# Security - NEVER commit these!
+.env
+.env.local
+
+# Runtime data
+data/
+node_modules/
+*.log
+
+# OS files
+.DS_Store

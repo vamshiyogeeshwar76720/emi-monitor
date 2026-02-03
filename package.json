@@ -1,0 +1,20 @@
+{
+  "name": "emi-monitor",
+  "version": "1.0.0",
+  "description": "EMI Monitor with Embedded Scheduler",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ethers": "^5.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
